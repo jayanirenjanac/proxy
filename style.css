@@ -1,0 +1,66 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.main
+{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50% ), url('virat\ kohli\ photo\ wallpaper_07.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar
+{
+    width:auto;
+    height: 65px;
+    margin:auto;
+    display: flex;
+}
+.icon
+{
+    width: 200px;
+    float:left;
+    height: 70px;
+}
+.logo
+{
+    color: rgb(220, 90, 25);
+    font-size: 30px;
+    font-family: fantasy;
+    padding-top: 7px;
+    padding-left: 150px;
+}
+.menu
+{
+    width: 400px;
+    height: 65px;
+    padding-left: 600px;
+}
+ul{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li
+{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+
+}
+ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: fantasy;
+    transition: 0.3s ease-in-out;
+    color: aliceblue;
+    padding-bottom: 10px;
+}
+ul li a:hover
+{
+    color: burlywood;
+}
